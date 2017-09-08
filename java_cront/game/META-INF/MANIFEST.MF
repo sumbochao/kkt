@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+MIDlet-Vendor: MyZoo
+PROVIDER_ID: 59
+MIDlet-Version: 1.0.3
+MIDlet-1: MyZoo,icon.png,main.NuoiThuMidlet
+MicroEdition-Configuration: CLDC-1.1
+LINK_UPDATE: http://taoviec.com/upload/user/uprio94/game/myzooduoi300k59.jar
+MIDlet-Name: MyZoo
+MicroEdition-Profile: MIDP-2.0
+
+refcode: d10731423380752bb4f4bf2d89360091

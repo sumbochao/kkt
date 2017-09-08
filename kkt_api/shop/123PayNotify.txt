@@ -1,0 +1,35 @@
+2016-02-24T16:43:06+07:00 mTransactionID=bankCode=transactionStatus=description=ts=checksum=
+2016-02-24T16:46:13+07:00 mTransactionID=traodoidi_213_1456307141bankCode=123PVCBtransactionStatus=1description=ts=1456306823checksum=486f4ce2609f77608e71aa5912dc6280517fda47
+2016-02-24T16:58:08+07:00 mTransactionID=traodoidi_213_1456307837bankCode=123PVCBtransactionStatus=1description=ts=1456307538checksum=af68c228929da1cc07dbefab1b89bb659777b136
+2016-02-24T16:58:08+07:00 SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ts' cannot be null
+2016-02-24T17:01:33+07:00 mTransactionID=traodoidi_213_1456308056bankCode=123PVCBtransactionStatus=1description=ts=1456307743checksum=12bee611c9430da57f63e96015ac54a7375a87b2
+2016-02-24T17:14:11+07:00 mTransactionID=traodoidi_213_1456308817bankCode=123PVCBtransactionStatus=1description=ts=1456308501checksum=b7c10699aa38708b4ad1b332b7eaa115d806f9a8
+2016-02-24T17:29:40+07:00 KQ0KQ0
+2016-02-24T17:34:30+07:00 KQ0KQ0
+2016-02-24T17:35:54+07:00 KQ0KQ0
+2016-02-24T17:37:13+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:37:13+07:00 KQ0KQ0
+2016-02-24T17:39:37+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:39:37+07:00 KQ0KQ0
+2016-02-24T17:39:38+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:39:38+07:00 KQ0KQ0
+2016-02-24T17:39:39+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:39:39+07:00 KQ0KQ0
+2016-02-24T17:40:32+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:40:32+07:00 KQ0KQ0
+2016-02-24T17:41:16+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:41:16+07:00 KQ0KQ0
+2016-02-24T17:41:17+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:41:17+07:00 KQ0KQ0
+2016-02-24T17:41:38+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:41:38+07:00 KQ0KQ0
+2016-02-24T17:42:45+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:42:45+07:00 KQ0KQ0
+2016-02-24T17:42:47+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:42:47+07:00 KQ0KQ0
+2016-02-24T17:42:48+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:42:48+07:00 KQ0KQ0
+2016-02-24T17:43:02+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:43:02+07:00 KQ1KQ1
+2016-02-24T17:45:22+07:00 SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'traodoidi_213_1456308817' for key 'NewIndex1'
+2016-02-24T17:52:30+07:00 mTransactionID=traodoidi_213_1456311110bankCode=123PVCBtransactionStatus=1description=ts=1456310800checksum=2c9613a2fd0eabf7655dfb4ebc36d5555b22b0d1

@@ -1,0 +1,108 @@
+<h4>
+create table : unique, primay key , foreign key, constraint, unique,union
+</h4>
+<h4>
+create table tblOrderDetail1 (<br>
+	 id int not null primary key identity,<br>
+	 orderId int foreign key (orderId) references tblorders(id),<br>
+	 quantity int not null,<br>
+	 price float,<br>
+	 created_date datetime default(current_timestamp)<br>
+)
+</h4>
+<h4>
+create table tblorder2(<br>
+	id int not null primary key identity,<br>
+	customerId int not null,<br>
+	amount decimal(10,2),<br>
+	foreign key (customerId) references customers(id)<br>
+)
+</h4>
+<h4>
+create index customerId on tblorder2( customerId) <br>
+
+CREATE TABLE Persons (<br>
+    ID int NOT NULL UNIQUE,<br>
+    LastName varchar(255) NOT NULL,<br>
+    FirstName varchar(255),<br>
+    Age int<br>
+);
+</h4>
+------------------------------------------------
+<h4>
+CONSTRAINT<br>
+CREATE TABLE Persons (<br>
+    ID int NOT NULL,<br>
+    LastName varchar(255) NOT NULL,<br>
+    FirstName varchar(255),<br>
+    Age int,<br>
+    CONSTRAINT UC_Person UNIQUE (ID,LastName)<br>
+);
+<br>
+ALTER TABLE Persons<br>
+ADD CONSTRAINT UC_Person UNIQUE (ID,LastName);<br>
+
+CREATE TABLE cust_sample<br>
+   (<br>
+   cust_id            int      PRIMARY KEY,<br>
+   cust_name         char(50),<br>
+   cust_address         char(50),<br>
+   cust_credit_limit   money,<br>
+   CONSTRAINT chk_id CHECK (cust_id BETWEEN 0 and 10000 )<br>
+   )
+  <br>
+CREATE TABLE factory_process<br>
+   (event_type   int,<br>
+   event_time   datetime,<br>
+   event_site   char(50),<br>
+   event_desc   char(1024),<br>
+CONSTRAINT event_key PRIMARY KEY (event_type, event_time) )<br>
+<br>
+CREATE TABLE Persons (<br>
+    ID int NOT NULL,<br>
+    LastName varchar(255) NOT NULL,<br>
+    FirstName varchar(255),<br>
+    Age int,<br>
+    CONSTRAINT PK_Person PRIMARY KEY (ID,LastName)<br>
+);
+<br>
+CREATE TABLE Persons (<br>
+    ID int NOT NULL,<br>
+    LastName varchar(255) NOT NULL,<br>
+    FirstName varchar(255),<br>
+    Age int,<br>
+    City varchar(255),<br>
+    CONSTRAINT CHK_Person CHECK (Age>=18 AND City='Sandnes')<br>
+);
+</h4>
+----------------------------
+<h4>
+index<br>
+CREATE INDEX index_name<br>
+ON table_name (column1, column2, ...);<br>
+CREATE UNIQUE INDEX index_name<br>
+ON table_name (column1, column2, ...);<br>
+<br>
+-------------------
+CREATE VIEW view_name AS
+SELECT column1, column2, ...<br>
+FROM table_name<br>
+WHERE condition;<br>
+-----------------------
+<br>
+alter<br>
+
+ALTER TABLE table_name
+ADD column_name datatype;<br>
+ALTER TABLE table_name
+DROP COLUMN column_name;<br>
+ALTER TABLE table_name
+MODIFY COLUMN column_name datatype;<br>
+---------------------
+column
+</h4>
+
+String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
+			"databaseName=AdventureWorks;integratedSecurity=true;";<br>
+        		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");<br/>
+            		con = DriverManager.getConnection(connectionUrl);

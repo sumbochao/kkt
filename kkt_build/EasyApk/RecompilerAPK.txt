@@ -1,0 +1,4 @@
+1. Dung EasyApkDisassembler.V1.3 de decompile va recompile.
+2. java -jar apk-signer-1.4.2.jar de sign apk file.
+3. zipalign lai file apk da sign o tren.
+4. Done.

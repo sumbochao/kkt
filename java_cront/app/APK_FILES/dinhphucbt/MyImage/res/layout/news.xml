@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="30.0dip" android:minHeight="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearBanner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffaaffff" android:ellipsize="marquee" android:id="@id/myTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quảng cáo" android:singleLine="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout1" android:background="#ff838b83" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/previous" android:clickable="true" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/previous" android:layout_alignParentLeft="true" />
+        <TableLayout android:gravity="center" android:layout_gravity="center" android:id="@id/tableLayout1" android:layout_width="220.0dip" android:layout_height="fill_parent">
+            <TableRow android:gravity="center" android:id="@id/tableRow2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20.0dip" android:textColor="#ffb22222" android:layout_gravity="center" android:id="@id/txtDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1/3" />
+            </TableRow>
+        </TableLayout>
+        <ImageView android:id="@id/next" android:clickable="true" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/next" android:layout_alignParentRight="true" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/listItems" android:scrollbars="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:choiceMode="singleChoice" android:smoothScrollbar="true" />
+    </LinearLayout>
+</LinearLayout>

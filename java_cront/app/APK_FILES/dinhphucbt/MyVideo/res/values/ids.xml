@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tableLayout1">false</item>
+    <item type="id" name="tableRow1">false</item>
+    <item type="id" name="tableLayout2">false</item>
+    <item type="id" name="tableRow2">false</item>
+    <item type="id" name="txtTitle">false</item>
+    <item type="id" name="tableRow3">false</item>
+    <item type="id" name="txtDateTime">false</item>
+    <item type="id" name="tableLayout4">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="linearBanner">false</item>
+    <item type="id" name="myTextView">false</item>
+    <item type="id" name="linearLayout1">false</item>
+    <item type="id" name="previous">false</item>
+    <item type="id" name="txtDate">false</item>
+    <item type="id" name="next">false</item>
+    <item type="id" name="linearLayout3">false</item>
+    <item type="id" name="listItems">false</item>
+</resources>

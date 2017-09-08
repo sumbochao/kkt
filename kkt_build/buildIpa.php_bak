@@ -1,0 +1,46 @@
+<?php
+    include("buildFunction.php");
+    $memberCode = $_GET["refcode"];
+    $appId = $_GET["appId"];
+    
+    if($memberCode=='') return;
+    
+    $fileRefcodeDes  = "";
+    $appFileName = "vclip.v1.1.ipa"; 
+	$pre_appFileName ="vclip.v1.1";
+    switch($appId){
+        case 1 :    // Clip
+            $fileRefcodeDes = 'Payload/TTV.app/refcode.txt';
+            $appFileName = "vclip.v1.1.ipa";
+			$pre_appFileName ="vclip.v1.1";
+          break;
+        case 2 :    // SMS kute
+            $fileRefcodeDes = 'Payload/SMSKute.app/refcode.txt';
+            $appFileName = "smscute.ipa";
+			$pre_appFileName ="smscute";
+            break;
+        case 3 :    /// Audio
+             $fileRefcodeDes = 'Payload/TruyenAudio3.app/refcode.txt';
+            $appFileName = "audio.v1.0.ipa";
+			$pre_appFileName ="audio.v1.0";
+            break;
+        default:
+             $appFileName = "vclip.v1.1.ipa"; 
+             $fileRefcodeDes = 'Payload/TTV.app/refcode.txt'; 
+        break;
+    }
+    // Tao refcode file
+    
+    deleteDirectory($memberCode); 
+  
+    if(@chdir($memberCode) == false) @mkdir($memberCode, 0777, true);
+    
+	$new_appFileName = $pre_appFileName. "." .$memberCode.".ipa";
+    copy("NMT/".$appFileName,$memberCode."/".$new_appFileName);
+      
+    $fileRefcode = $memberCode."/refcode.txt";
+    createFileRefcode($fileRefcode,$memberCode) ;
+    addFileRefcode($memberCode."/".$new_appFileName,$fileRefcode,$fileRefcodeDes)    ;
+    downloadFile($memberCode."/".$new_appFileName);
+?>   
+    

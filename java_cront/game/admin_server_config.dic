@@ -1,0 +1,27 @@
+AuthenticationCacheDuration==7200
+DateFormat==dd/MM/yyyy
+
+TimeZone
+	Offset==25200000
+	Description==Viet Nam/Ha Noi
+DefaultDatabase==DB_HDC_TAOVIEC
+Connection
+	DB_HDC_TAOVIEC
+		DriverClass==com.mysql.jdbc.Driver
+		Url==jdbc:mysql://localhost/vtc_kenhkiemtien?autoReconnect=true&characterEncoding=UTF-8
+		UserName==uvtc_kkt2012
+		Password==pvtc_@)!@kkt
+		MaxActive==5
+		MaxIdle==2
+		MinIdle==1
+		MaxWait==3600			
+					
+GameFolder==/home/webhome/kenhkiemtien.com/upload/game
+DestinationFolder==/home/webhome/kenhkiemtien.com/
+USER_LIMIT_QUERY==50
+GAME_FILES_LIMIT_QUERY==50
+WEBSITE_LINK==http://wapthugian.com/
+AppBuildsFilesTimer==5
+GameBuildsFilesTimer==1
+GAME_JB_DATA_FOLDER==ndt/unlock/j2me
+

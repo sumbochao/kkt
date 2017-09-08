@@ -1,0 +1,70 @@
+<?php
+    include ("buildFunction.php");     
+     
+    $memberCode = $_GET["refcode"];
+    $appId = $_GET["appId"];
+    
+    if($memberCode=='') return;
+    
+    $fileRefcodeDes  = "";
+    $appFileName = "vclip.v1.1.apk"; 
+	$pre_appFileName = "vclip.v1.1";
+    switch($appId){
+        case 1 :    // Clip
+            $fileRefcodeDes = 'assets/refcode.txt';
+            $appFileName = "vclip.v1.1.apk";
+			$pre_appFileName = "vclip.v1.1";
+          break;
+        case 2 :    // SMS kute
+            $fileRefcodeDes = 'assets/refcode.txt';
+            $appFileName = "smscute.apk";
+			$pre_appFileName = "smscute";
+            break;
+        case 3 :    /// Audio
+             $fileRefcodeDes = 'assets/refcode.txt';
+            $appFileName = "audio.v1.0.apk";
+			$pre_appFileName = "audio.v1.0";
+            break;
+        case 4 :    /// iMusic
+            $fileRefcodeDes = 'assets/refcode.txt';
+            $appFileName = "imusic.apk";
+            $pre_appFileName = "imusic";
+            break;
+        case 5 :    /// xoso
+            $fileRefcodeDes = 'assets/refcode.txt';
+            $appFileName = "xoso.apk";
+            $pre_appFileName = "xoso";
+            break;
+        default:
+             $appFileName = "vclip.v1.1.apk"; 
+             $fileRefcodeDes = 'assets/refcode.txt'; 
+        break;
+    }
+    // Tao refcode file
+    
+    deleteDirectory($memberCode); 
+  
+    if(@chdir($memberCode) == false) @mkdir($memberCode, 0777, true);
+    
+    copy("NMT/".$appFileName,$memberCode."/".$appFileName);
+      
+    $fileRefcode = $memberCode."/refcode.txt";
+    createFileRefcode($fileRefcode,$memberCode) ;
+    addFileRefcode($memberCode."/".$appFileName,$fileRefcode,$fileRefcodeDes)    ;
+   // downloadFile($memberCode."/".$appFileName);
+    
+   $pathApkTool = "/home/kktien/domains/kenhkiemtien.com/public_html/kenhkiemtien.com/kkt_build/EasyApk/SYSTEM.EAD/signapk.jar";
+   $pathApkTool1 = "/home/kktien/domains/kenhkiemtien.com/public_html/kenhkiemtien.com/kkt_build/EasyApk/SYSTEM.EAD/testkey.x509.pem";
+   $pathApkTool2 = "/home/kktien/domains/kenhkiemtien.com/public_html/kenhkiemtien.com/kkt_build/EasyApk/SYSTEM.EAD/testkey.pk8";
+
+   $file1 = $memberCode."/".$appFileName;
+   $file2= $memberCode."/".$pre_appFileName.".".$memberCode.".apk";
+   $command ="java -jar ".$pathApkTool." ".$pathApkTool1. " ".$pathApkTool2." ".$file1." ".$file2."   ";
+   @exec($command, $output, $response);
+   downloadFile($memberCode."/".$pre_appFileName.".".$memberCode.".apk");
+    
+?>
+
+<?php
+    
+?>

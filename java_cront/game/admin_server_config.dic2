@@ -1,0 +1,39 @@
+AuthenticationCacheDuration==7200
+DateFormat==dd/MM/yyyy
+
+TimeZone
+	Offset==25200000
+	Description==Viet Nam/Ha Noi
+DefaultDatabase==DB_HDC_TAOVIEC
+Connection
+	DB_HDC_TAOVIEC
+		DriverClass==com.mysql.jdbc.Driver
+		Url==jdbc:mysql://192.168.1.101/hdc_TaoViec?autoReconnect=true&characterEncoding=UTF-8
+		UserName==hdcTAOviec2012 
+		Password==TaoVIEChdc@)!@
+		MaxActive==5
+		MaxIdle==2
+		MinIdle==1
+		MaxWait==3600
+		QueryTest==SELECT 1		 
+		
+	DB_LOCAL_TAOVIEC
+		DriverClass==com.mysql.jdbc.Driver
+		Url==jdbc:mysql://192.168.1.111/game_wapCMS?autoReconnect=true&characterEncoding=UTF-8
+		UserName==hdcGame
+		Password==HDCgame@)!@
+		MaxActive==5
+		MaxIdle==2
+		MinIdle==1
+		MaxWait==3600	
+	
+AppFolder==/data/website/taoviec/taoviec.com/upload/app
+GameFolder==/data/website/taoviec/taoviec.com/upload/game
+DestinationFolder==/data/website/taoviec/taoviec.com
+APPS_LIST_FILES=="Applist.txt"
+USER_LIMIT_QUERY==3
+GAME_FILES_LIMIT_QUERY==50
+WEBSITE_LINK==http://taoviec.com/
+AppBuildsFilesTimer==3
+GameBuildsFilesTimer==3
+Project_folder==/data/website/taoviec/taoviec.com/java_cront/game

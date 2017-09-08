@@ -1,0 +1,174 @@
+html, body{font-family: Tahoma, Arial, Helvetica, sans-serif; margin: 0; padding: 0;font-size:12px; font-weight:normal}
+h1, h2,h3, h4, h5, h6 {font-size:14px;margin:0;padding:0}
+.clearfix:after { clear: both; content: " ";display: block;font-size: 0;height: 0;visibility: hidden}
+.main {margin: 0 auto}
+.bg_gray{
+	background-color: #f4ffff;
+}
+.bg_gray2{background:#f2f2f2}
+.bg_green{background:#2292f1}
+.bg_orage{background:#f60}
+.bg_orage2{
+	background:#f6f6f6;
+	border-top: 1px solid #e4e3e3;
+	border-bottom: 1px solid #e4e3e3;
+}
+.clblack{color:#000 !important;font-style:normal}
+.clwhite{color:ffecfe!important}
+.clccc{color:#ccc !important}
+.cl333{color:#333 !important}
+.cl666{color:#666 !important}
+.cl999{color:#6e0101!important}
+.clorage{
+	color:#FF0000!important;
+}
+.clblue{color:#ac01ae!important}
+.clgreen{color: #2992f1!important}
+.clred{color:#f60e0e}
+a:link{color:#333}
+a.active{color:#0287ff!important}
+.mag0{margin:0 !important}
+.mag_top5{margin-top:5px}
+.mag_btt_t5{margin-bottom:5px;margin-top:5px}
+.pad0{padding:0 !important}
+.pad_btt0{padding-bottom:0 !important}
+.pad10{padding:10px}
+.pad_lr10{padding-left:10px;padding-right:10px}
+.pad_btt5{padding-bottom:5px}
+.bottom10{margin-bottom:10px !important}
+.bottom3 {margin-bottom: 3px !important}
+.bottom {margin-bottom: 0 !important}
+.bor_top{border-top:1px solid #ededed}
+.no_bor_top{
+	border-top:none!important;
+}
+.no_bor_btt{
+	border-bottom:none #FF0000!important;
+	border-top-color: #FF0000;
+	border-right-color: #FF0000;
+	border-left-color: #FF0000;
+}
+.no_bor_l{border-left:none !important}
+.no_bor_r{border-right:none !important}
+.nobor{border:none !important}
+.s12{font-size:12px}
+.s14{font-size:14PX}
+.s18{font-size:18px}
+.s24{font-size:24px}
+.img52{max-width:60px;height:auto;border:1px solid #e4e4e4}
+.under{text-decoration:underline}
+div.table{padding: 5px 0}
+div{display: block}
+input[type="text"], input[type="password"], input.text, input.title, textarea {background-color: #FFFFFF;border: 1px solid #687481;height: 20px;width:230px}
+ul.list_style{list-style:none outside none;margin:0;padding:0}
+a{text-decoration:none; outline: medium none}
+a:hover{text-decoration:underline}
+span{margin: 0 0 2px;line-height: 1.3/*;display:inline-block*/}
+p{line-height:20px}
+.table table td {text-align: left;vertical-align: top; color:#999}
+
+/*---------------------------css_header -----------------------------*/
+table tr td{font-size:12px}
+#header{border-top:2px solid #2e90e9}
+#header ul.list_style li{padding:8px 5px 5px 10px}
+#header ul.list_style li{float:left;border-left:1px solid #75bbfa;border-right:1px solid #137ad6}
+#header ul.list_style li a{display:block;height:40px;line-height:49px;color:#fff}
+#header ul.list_style li.active, #header ul.list_style li:hover{background:#FFFFFF}
+#header ul.list_style li.active a, #header ul.list_style li:hover a{color:#0167bc}
+
+.money_syst h2 strong{color:#FFFFFF;text-shadow:1px 1px 1px #030}
+.money_syst table tr td{border-bottom:1px solid #0a7fed;border-top:1px solid #6db8fe;color:#FFFF00;padding:5px 0;font-size:12px}
+.item_data {
+	padding-left: 10px;
+	font-size: 14px;
+}
+/*.item_data a{display:inline-block}*/
+.seller h2{padding:15px 10px 0}
+.login h2{padding-bottom:16px}
+.login table tr td{padding-bottom:15px}
+.bt_blue{
+	background:#55adff url(none);
+	border: 1px solid;
+	width: 102px;
+}
+.bt_orage{background:#f555ff url(none)}
+.bt_blue,.bt_orage{height:35px;color:#fff;border:none;padding:0 15px 0;-moz-border-radius:3px;-webkit-border-radius:3px;cursor:pointer}
+.suport_ifo{border-bottom:5px solid #014583}
+.suport_ifo ul li{}
+.suport_ifo ul li a{background:url(../images/bullet.gif) no-repeat 0 5px;padding-left:15px;color:#fff}
+
+.menu_foter {border-bottom:1px solid #e3e3e3;padding-bottom:2px}
+.footer ul li, .nav_ctv ul li{float:left}
+.footer ul li a{color:#000000}
+.ifo_foter{text-align:center;padding:3px 0;padding-top:10px}
+.ifo_foter em{font-style:normal !important}
+.count_onl{background:url(../images/icons.png) no-repeat left -283px;padding-left:20px}
+/*---------------------------css_money_day-----------------------------*/
+.money_day h2{padding:10px 0 5px 10px}
+.money_day h3{color:#FF3333}
+.reven_live em{font-style:normal !important}
+.money_day .box{padding:5px 10px 10px}
+a.bt_blue, a.bt_orage{color:#fff;display:inline-block;padding:3px 5px;height:auto;margin:5px 0 0 8px}
+.box_chat .box{border:1px solid #e4e4e4;-moz-border-radius:0 0 3px 3px ;-webkit-border-radius:0 0 3px 3px}
+.box_chat .box ul li{padding:5px 10px 5px;border-bottom:1px solid #e4e4e4}
+.box_chat h2{-moz-border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0}
+a.like{background:url(../images/icons.png) no-repeat left 0;padding-left:18px;margin-left:10px}
+a.comment{background:url(../images/icons.png) no-repeat left -22px;padding-left:18px}
+span.ifo_other{margin-top:3px}
+span.view_more{
+	background:#dcdbdb url(../images/btn_xemthem.png);
+	padding:3px 8px;
+-moz-border-radius:0 0 3px 3px;	margin-bottom:20px;
+	display:inline-block;
+	border: medium #c7c7c7;
+}
+.bg_gray a.bt_blue{margin:0}
+h2.bg_green{padding:5px; color:#fff}
+a.sal_now{background:url(../images/icons.png) no-repeat left -46px; padding-left:19px}
+.can_like table tr td, .list_table table tr td{padding:5px 0 5px 10px;border-bottom:1px solid #ededed}
+
+/*---------------------------css_Shop_CTV-----------------------------*/
+.shop_ctv h1{font-size:18px;font-weight:bold}
+.bg_033{background:#054681;border-bottom:1px solid #0b74d1}
+.nav_ctv ul li{color:#fff}
+.nav_ctv ul li a{color:#fff}
+.nav_ctv ul li a:hover{color:#f60}
+.news_new{background:#fdebeb;padding:5px;text-align:center;-moz-border-radius:3px;-webkit-border-radius:3px}
+.ic_new2{padding-left:5px}
+a.download{background:url(../images/icons.png) no-repeat left -73px; padding-left:15px}
+a.ic_video{background:url(../images/icons.png) no-repeat left -93px;padding-left:15px}
+a.ic_news{background:url(../images/icons.png) no-repeat left -185px;padding-left:20px}
+a.ic_viewing{background:url(../images/ic_view.gif) no-repeat left 2px;padding-left:15px}
+a.ic_pic{background:url(../images/icons.png) no-repeat left -385px;padding-left:18px}
+/*---------------------------C nhn-----------------------------*/
+span.user_info{margin-top:3px}
+.info_text .list_item ul li{color:#390;list-style:inside}
+.info_text .list_item ul li a:hover{color:#f60}
+.link_adv{background:#d1eaff;border:1px solid #a2cdf1;padding:5px}
+.ifo_acount .box ul li{padding:5px 10px; border-bottom:1px solid #e4e4e4}
+.change_pas a.bt_orage{margin:5px 0}
+.emb_bann ul li, .list_pic ul li{padding:10px 5px}
+.news_cont table tr td{color:#333}
+.news_cont ul.list_style li a{border-bottom: 1px dotted #CCCCCC;color: #666666;display: inline-block;padding: 3px 0}
+.news_hot .pages{border-top:1px solid #e4e4e4}
+.pages a:hover{color:#f60}
+.bg_orage3 {
+
+	background:#e6f3fe;
+	border-top: 1px solid #d3eafd;
+	border-bottom: 1px solid #d3eafd;
+}
+.bt_blue1 {
+	background:url(../images/btn_dangnhap1.png);
+	border: 1px solid;
+	width: 102px;
+}
+.bt_blue1,.bt_orage1 {
+height:35px;color:#fff;border:none;padding:0 15px 0;-moz-border-radius:3px;-webkit-border-radius:3px;cursor:pointer
+}
+.bt_orage1 {
+background:url(../images/btn_gianhapKKT1.png)
+}
+.bg_green1 {
+background:#025199
+}

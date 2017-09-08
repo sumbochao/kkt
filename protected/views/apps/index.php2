@@ -1,0 +1,5 @@
+<?php 
+header('Location: https://play.google.com/store/apps/details?id=com.audio.hbook.b1');
+exit;
+
+?>

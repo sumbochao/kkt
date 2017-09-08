@@ -1,0 +1,41 @@
+AuthenticationCacheDuration==7200
+DateFormat==dd/MM/yyyy
+
+TimeZone
+	Offset==25200000
+	Description==Viet Nam/Ha Noi
+DefaultDatabase==DB_KKT
+Connection
+	DB_KKT
+		DriverClass==com.mysql.jdbc.Driver
+		Url==jdbc:mysql://localhost/vtc_kenhkiemtien?autoReconnect=true&characterEncoding=UTF-8
+		UserName==uvtc_kkt2012
+		Password==pvtc_@)!@kkt
+		MaxActive==5
+		MaxIdle==2
+		MinIdle==1
+		MaxWait==3600			 
+		
+	DB_LOCAL_TAOVIEC
+		DriverClass==com.mysql.jdbc.Driver
+		Url==jdbc:mysql://192.168.1.111/game_wapCMS?autoReconnect=true&characterEncoding=UTF-8
+		UserName==hdcGame
+		Password==HDCgame@)!@
+		MaxActive==5
+		MaxIdle==2
+		MinIdle==1
+		MaxWait==3600	
+	
+AppFolder==/home/webhome/kenhkiemtien.com/upload/app
+GameFolder==/home/webhome/kenhkiemtien.com/java_cront/game
+DestinationFolder==/home/webhome/kenhkiemtien.com/
+APPS_LIST_FILES=="Applist.txt"
+USER_LIMIT_QUERY==6
+GAME_FILES_LIMIT_QUERY==50
+WEBSITE_LINK==http://kenhkiemtien.com/
+AppBuildsFilesTimer==1
+GameBuildsFilesTimer==3
+app_ios_dst_folder==/home/webhome/kenhkiemtien.com/upload/user
+app_ios_src_url_ipa==http://10h.vn/app
+app_ios_dst_url_ipa==http://kenhkiemtien.com/upload/user
+refCodeReplace==988a971a9ac3ae7b44cdc0a65ffb8162

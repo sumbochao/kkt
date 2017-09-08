@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true">
+        <TableLayout android:id="@id/tableLayout1" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TableRow android:id="@id/tableRow1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TableLayout android:id="@id/tableLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TableRow android:id="@id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="16.0dip" android:id="@id/txtTitle" android:layout_width="220.0dip" android:layout_height="50.0dip" android:maxWidth="200.0dip" android:text="fsfsd" />
+                    </TableRow>
+                    <TableRow android:id="@id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="14.0dip" android:textColor="#ffff0000" android:id="@id/txtDateTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:text="42423442423" />
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+        </TableLayout>
+        <TableLayout android:gravity="center" android:id="@id/tableLayout4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/imageView1" android:paddingLeft="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>

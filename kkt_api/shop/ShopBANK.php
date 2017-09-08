@@ -1,0 +1,80 @@
+<?php
+  $arrayBank = Array();
+  $arrayBank[0] =array("name"=>"Ngân hàng Nông nghiệp và Phát triển Nông thôn", "code"=>"Agribank");
+  $arrayBank[1] =array("name"=>"Ngân hàng TMCP Đầu tư và Phát triển Việt Nam", "code"=>"BIDV");
+  $arrayBank[2] =array("name"=>"Ngân hàng TMCP Công thương Việt Nam", "code"=>"Vietinbank");
+  $arrayBank[3] =array("name"=>"Ngân hàng TMCP Á Châu", "code"=>"ACB");
+  $arrayBank[4] =array("name"=>"Ngân hàng TMCP Đông Nam Á", "code"=>"SeABank");
+  $arrayBank[5] =array("name"=>"Ngân hàng TMCP Sài Gòn Thương tín", "code"=>"Sacombank");
+  $arrayBank[6] =array("name"=>"Ngân hàng TMCP Sài Gòn Công thương", "code"=>"Saigonbank");
+  $arrayBank[7] =array("name"=>"Ngân hàng TMCP An Bình", "code"=>"ABBank");
+  $arrayBank[8] =array("name"=>"Ngân hàng Phát triển nhà Đồng bằng song Cửu Long", "code"=>"MHB");
+  $arrayBank[9] =array("name"=>"Ngân hàng TMCP Nhà Hà Nội", "code"=>"Habubank");
+  $arrayBank[10] =array("name"=>"Ngân hàng  TMCP Đại Dương", "code"=>"Oceanbank");
+  $arrayBank[11] =array("name"=>"Ngân hàng TMCP Phương Tây", "code"=>"Westernbank ");
+  $arrayBank[12] =array("name"=>"Ngân hàng Xăng dầu Petrolimex", "code"=>"PG Bank");
+  $arrayBank[13] =array("name"=>"Ngân hàng liên doanh Việt Nga", "code"=>"VRB");
+  $arrayBank[14] =array("name"=>"Ngân hàng TMCP Đại Tín", "code"=>"TRUSTBank");
+  $arrayBank[15] =array("name"=>"Ngân hàng TMCP Nam Á", "code"=>"Nam A Bank");
+  $arrayBank[16] =array("name"=>"Quĩ Tín dụng Nhân dân Trung Ương", "code"=>"CCF");
+  $arrayBank[17] =array("name"=>"Ngân hàng TMCP Dầu khí toàn cầu", "code"=>"GPBank");
+  $arrayBank[18] =array("name"=>"Ngân hàng Ngoại thương Việt Nam", "code"=>"Vietcombank");
+  $arrayBank[19] =array("name"=>"Ngân hàng TMCP Kỹ thương", "code"=>"Techcombank");
+  $arrayBank[20] =array("name"=>"Ngân hàng TMCP Sài Gòn", "code"=>"SCB");
+  $arrayBank[21] =array("name"=>"Ngân hàng TMCP Nam Việt", "code"=>"Navibank");
+  $arrayBank[22] =array("name"=>"Ngân hàng TMCP Tiên Phong", "code"=>"Tien Phong Bank");
+  $arrayBank[23] =array("name"=>"Ngân hàng TMCP Phương Nam", "code"=>"Southern Bank");
+  $arrayBank[24] =array("name"=>"Ngân hàng TMCP Việt Á", "code"=>"VietA Bank");
+  $arrayBank[25] =array("name"=>"Ngân hàng TMCP Quốc tế", "code"=>"VIBank");
+  $arrayBank[26] =array("name"=>"Ngân hàng TMCP Thịnh Vượng", "code"=>"VP Bank");
+  $arrayBank[27] =array("name"=>"Ngân hàng TMCP Xuất nhập khẩu", "code"=>"EIB");
+  $arrayBank[28] =array("name"=>"Ngân hàng TMCP Hàng Hải", "code"=>"MSB");
+  $arrayBank[29] =array("name"=>"Ngân hàng Phát triển nhà tp Hồ Chí Minh", "code"=>"HD Bank");
+  $arrayBank[30] =array("name"=>"Ngân hàng TNHH Indo Vina Bank", "code"=>"IVB");
+  $arrayBank[31] =array("name"=>"Ngân hàng TMCP Sài Gòn Hà Nội", "code"=>"SHB");
+  $arrayBank[32] =array("name"=>"Ngân hàng Liên doanh VID Public", "code"=>"VID");
+  $arrayBank[33] =array("name"=>"Ngân hàng TMCP  Bắc Á", "code"=>"Nasbank");
+  $arrayBank[23] =array("name"=>"Ngân hàng TMCP Phương Đông", "code"=>"OCB");
+  $arrayBank[25] =array("name"=>"Ngân hàng TNHH MTV Standard Chartered", "code"=>"SCVN");
+  $arrayBank[26] =array("name"=>"Ngân hàng TNHH MTV Hong Leong VN ", "code"=>"HLBVN");
+  $arrayBank[37] =array("name"=>"Ngân hàng TMCP Liên Việt", "code"=>"LVB");
+  $arrayBank[38] =array("name"=>"Ngân hàng TMCP Đông Á", "code"=>"DongABank");
+  
+  $arrayShipPartner = Array();
+  $arrayShipPartner[0] =array("name"=>"Giao hàng nhanh", "code"=>"GHN");
+  //$arrayShipPartner[1] =array("name"=>"Giao hàng tiết kiệm", "code"=>"GHTK");
+  
+  
+  $arrayBank123 = Array();
+  $arrayBank123[0] =array("name"=>"Ngân hàng Ngoại Thương Việt Nam (Vietcombank)", "code"=>"123PVCB","image"=>"http://kenhkiemtien.com/upload/shop/bank/vietcombank.png");
+  $arrayBank123[1] =array("name"=>"Ngân hàng Đông Á (DAB)", "code"=>"123PDAB","image"=>"http://kenhkiemtien.com/upload/shop/bank/DongA.png");
+  $arrayBank123[2] =array("name"=>"Ngân hàng Công Thương Việt Nam (Vietinbank)", "code"=>"123PVTB","image"=>"http://kenhkiemtien.com/upload/shop/bank/viettin.png");
+  $arrayBank123[3] =array("name"=>"Ngân hàng Nông nghiệp và Phát triển Nông thôn Việt Nam (Agribank)", "code"=>"123PAGB","image"=>"http://kenhkiemtien.com/upload/shop/bank/agribank.png");
+  $arrayBank123[4] =array("name"=>"Ngân hàng Kỹ Thương Việt Nam (Techcombank)", "code"=>"123PTCB","image"=>"http://kenhkiemtien.com/upload/shop/bank/techcom.png");
+  $arrayBank123[5] =array("name"=>"Ngân hàng Xuất Nhập Khẩu Việt Nam (Eximbank)", "code"=>"123PEIB","image"=>"http://kenhkiemtien.com/upload/shop/bank/eximbank.png");
+  $arrayBank123[6] =array("name"=>"Ngân hàng Sài Gòn Thương(Sacombank)", "code"=>"123PSCB","image"=>"http://kenhkiemtien.com/upload/shop/bank/sacombank.png");
+  $arrayBank123[7] =array("name"=>"Ngân hàng quốc tế (VIB)", "code"=>"123PVIB","image"=>"http://kenhkiemtien.com/upload/shop/bank/vib.png");
+  $arrayBank123[8] =array("name"=>"Ngân hàng đầu tư và phát triển Việt Nam (BIDV)", "code"=>"123PBIDV","image"=>"http://kenhkiemtien.com/upload/shop/bank/bidv.png");
+  $arrayBank123[9] =array("name"=>"Ngân hàng quân đội (MB)", "code"=>"123PMB","image"=>"http://kenhkiemtien.com/upload/shop/bank/mb.png");
+  $arrayBank123[10] =array("name"=>"Ngân hàng Á Châu (ACB)", "code"=>"123PACB","image"=>"http://kenhkiemtien.com/upload/shop/bank/acb.png");
+  $arrayBank123[11] =array("name"=>"Ngân hàng TMCP Hàng Hải(Maritime Bank)", "code"=>"123PMRTB","image"=>"http://kenhkiemtien.com/upload/shop/bank/maritime.png");
+  
+  $arrayBank123[12] =array("name"=>"Ngân Hàng Dầu Khí Toàn Cầu (GPBank)", "code"=>"123PGPB","image"=>"http://kenhkiemtien.com/upload/shop/bank/gp.png");
+  $arrayBank123[13] =array("name"=>"Ngân Hàng TMCP Phát Triển TPHCM (HDBank)", "code"=>"123PHDB","image"=>"http://kenhkiemtien.com/upload/shop/bank/hd.png");
+  $arrayBank123[14] =array("name"=>"Ngân hàng TMCP Nam Việt(NaviBank)", "code"=>"123PNVB","image"=>"http://kenhkiemtien.com/upload/shop/bank/navi.png");
+  $arrayBank123[15] =array("name"=>"Ngân hàng TMCP Việt Á", "code"=>"123PVAB","image"=>"http://kenhkiemtien.com/upload/shop/bank/vieta.png");
+  $arrayBank123[16] =array("name"=>"Ngân hàng Việt Nam Thịnh Vượng(VPBank)", "code"=>"123PVPB","image"=>"http://kenhkiemtien.com/upload/shop/bank/vp.png");
+  $arrayBank123[17] =array("name"=>"Ngân hàng TMCP Bắc Á", "code"=>"123PBAB","image"=>"http://kenhkiemtien.com/upload/shop/bank/baca.png");
+ // $arrayBank123[18] =array("name"=>"Ngân hàng TMCP Đại Dương(OceanBank)", "code"=>"123POCEB","image"=>"http://kenhkiemtien.com/upload/shop/bank/ocean.png");
+ // $arrayBank123[19] =array("name"=>"Ngân hàng TMCP An Bình(ABB)", "code"=>"123PABB","image"=>"http://kenhkiemtien.com/upload/shop/bank/anbinh.png");
+  $arrayBank123[18] =array("name"=>"Ngân hàng TMCP Nam Á(Nam A Bank)", "code"=>"123PNAB","image"=>"http://kenhkiemtien.com/upload/shop/bank/nama.png");
+  $arrayBank123[19] =array("name"=>"Ngân hàng TMCP Sài Gòn Công Thương (SaigonBank)", "code"=>"123PSGB","image"=>"http://kenhkiemtien.com/upload/shop/bank/sg.png");
+  $arrayBank123[20] =array("name"=>"Ngân hàng Dầu Khí (PG Bank)", "code"=>"123PPGB","image"=>"http://kenhkiemtien.com/upload/shop/bank/pg.png");
+  $arrayBank123[21] =array("name"=>"Ngân hàng TMCP Phương Đông (OCB)", "code"=>"123POCB","image"=>"http://kenhkiemtien.com/upload/shop/bank/ocb.png");
+ // $arrayBank123[24] =array("name"=>"Ngân hàng TMCP Đại Á(DaiA Bank)", "code"=>"123PDAIAB","image"=>"http://kenhkiemtien.com/upload/shop/bank/daia.png");
+ // $arrayBank123[25] =array("name"=>"Ngân hàng Tiền Phong(Tien Phong Bank)", "code"=>"123PTPB","image"=>"http://kenhkiemtien.com/upload/shop/bank/tp.png");
+  $arrayBank123[22] =array("name"=>"Master Card", "code"=>"123PCC","image"=>"http://kenhkiemtien.com/upload/shop/bank/master.png");
+  $arrayBank123[23] =array("name"=>"Visa Card", "code"=>"123PCC","image"=>"http://kenhkiemtien.com/upload/shop/bank/visa.png");
+  $arrayBank123[24] =array("name"=>"JCB", "code"=>"123PCC","image"=>"http://kenhkiemtien.com/upload/shop/bank/jcb.png");
+
+?>

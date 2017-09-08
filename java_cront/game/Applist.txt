@@ -1,0 +1,3 @@
+MyGame.jar	MyGame.jad	MyGame.apk
+MyImage.jar	MyImage.jad	MyImage.apk
+MyVideo.jar	MyVideo.jad	MyVideo.apk

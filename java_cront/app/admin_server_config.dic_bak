@@ -1,0 +1,20 @@
+AuthenticationCacheDuration==7200
+DateFormat==dd/MM/yyyy
+
+TimeZone
+	Offset==25200000
+	Description==Viet Nam/Ha Noi
+					
+AppFolder==/data/website/taoviec/taoviec.com/upload/app
+GameFolder==/data/website/taoviec/taoviec.com/upload/game
+DestinationFolder==/data/website/taoviec/taoviec.com
+URL==jdbc:mysql://192.168.1.101/hdc_TaoViec?autoReconnect=true&characterEncoding=UTF-8
+USERNAME==hdcTAOviec2012
+PASSWORD==TaoVIEChdc@)!@
+APPS_LIST_FILES=="Applist.txt"
+USER_LIMIT_QUERY==50
+GAME_FILES_LIMIT_QUERY==50
+WEBSITE_LINK==http://taoviec.com/
+AppBuildsFilesTimer==5
+GameBuildsFilesTimer==5
+Project_folder==/data/website/taoviec/taoviec.com/java_cront/app

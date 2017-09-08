@@ -1,0 +1,25 @@
+Options +FollowSymLinks
+IndexIgnore */*
+
+RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^www..*.wapthugian.com$ [NC]
+#RewriteRule ^(.*)$ http://dola.wapthugian.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+                                        
+# otherwise forward it to index.php   
+RewriteRule . index.php 
+
+
+
+# block visitors referred from indicated domains
+<IfModule mod_rewrite.c>
+SetEnvIfNoCase ^User-Agent$ .*(coccoc) HTTP_SAFE_BADBOT                         
+Deny from env=HTTP_SAFE_BADBOT
+</ifModule>
+

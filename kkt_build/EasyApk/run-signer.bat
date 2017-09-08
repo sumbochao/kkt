@@ -1,0 +1,1 @@
+java -jar apk-signer-1.4.2.jar
